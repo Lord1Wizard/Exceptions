@@ -53,7 +53,7 @@ public class hw_2 {
             int[] abc = { 1, 2 };
             abc[3] = 9;
         }
-        catch (NullPointerException ex)
+        catch (ArithmeticException e)
         {
             System.out.println("Указатель не может указывать на null!");
         }
@@ -65,7 +65,7 @@ public class hw_2 {
             System.out.println("Что-то пошло не так...");
         }
     }
-    public static void printSum(Integer a, Integer b) throws FileNotFoundException
+    public static void printSum(Integer a, Integer b)
     {
         System.out.println(a + b);
     }
