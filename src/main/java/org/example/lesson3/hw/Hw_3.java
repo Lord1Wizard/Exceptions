@@ -16,7 +16,7 @@ public class Hw_3 {
         }catch (FileSystemException e){
             System.out.println(e);
         }
-        System.out.println(perNew.toString());
+//        System.out.println(perNew.toString());
 
     }
     public static String[] fillArray(String text){
